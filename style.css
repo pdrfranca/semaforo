@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    font-weight: 900;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+}
+
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    width: 32%;
+    background-color: #0f0f0f;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.automatico{
+    width: 100%;
+}
