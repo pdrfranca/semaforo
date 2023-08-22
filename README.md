@@ -32,7 +32,7 @@ Para executar o código, siga as etapas abaixo:
 Você pode personalizar o código de acordo com suas preferências. Aqui estão algumas sugestões:
 
 - Modifique as cores do semáforo no arquivo `style.css` para se adequarem às suas preferências.
-- Altere a duração de cada cor no arquivo `script.js`, ajustando os valores das variáveis `redDuration`, `yellowDuration` e `greenDuration`.
+- Altere a duração de cada cor no arquivo `script.js`.
 
 ## Conclusão
 
