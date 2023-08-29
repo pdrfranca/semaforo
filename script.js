@@ -29,7 +29,9 @@ for (const botao of botoes){
         }
     }
     else{
-        img.setAttribute("src", `./img/${botao.id}.png`);
+            img.setAttribute("src", `./img/${botao.id}.png`);
+            clearInterval(intervalId); 
+            automaticoAtivo = false;
         }
     });
 }
